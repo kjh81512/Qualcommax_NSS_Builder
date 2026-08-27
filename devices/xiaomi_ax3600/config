@@ -25,3 +25,8 @@ CONFIG_PACKAGE_kmod-usb-dwc3=n
 CONFIG_PACKAGE_kmod-usb-dwc3-qcom=n
 CONFIG_PACKAGE_kmod-usb-xhci-hcd=n
 CONFIG_PACKAGE_kmod-usb3=n
+
+# add wireguard
+CONFIG_PACKAGE_kmod-wireguard=y
+CONFIG_PACKAGE_wireguard-tools=y
+CONFIG_PACKAGE_luci-proto-wireguard=y
