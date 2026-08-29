@@ -26,7 +26,17 @@ CONFIG_PACKAGE_kmod-usb-dwc3-qcom=n
 CONFIG_PACKAGE_kmod-usb-xhci-hcd=n
 CONFIG_PACKAGE_kmod-usb3=n
 
-# add wireguard
+# WireGuard
 CONFIG_PACKAGE_kmod-wireguard=y
 CONFIG_PACKAGE_wireguard-tools=y
 CONFIG_PACKAGE_luci-proto-wireguard=y
+
+# IPTV 릴레이 및 IGMP 프록시
+CONFIG_PACKAGE_udpxy=y
+CONFIG_PACKAGE_luci-app-udpxy=y
+CONFIG_PACKAGE_msd_lite=y
+CONFIG_PACKAGE_igmpproxy=y
+CONFIG_PACKAGE_luci-app-igmpproxy=y
+
+# 멀티캐스트 하드웨어 가속 드라이버 제외 (충돌 방지)
+CONFIG_PACKAGE_kmod-qca-nss-drv-mcast=n
