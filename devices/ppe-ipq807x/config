@@ -6,5 +6,3 @@ CONFIG_TARGET_qualcommax_ipq807x=y
 CONFIG_PACKAGE_kmod-wireguard=y
 CONFIG_PACKAGE_wireguard-tools=y
 CONFIG_PACKAGE_luci-proto-wireguard=y
-CONFIG_PACKAGE_msd_lite=y
-CONFIG_PACKAGE_luci-app-msd_lite=y
